@@ -1,0 +1,49 @@
+body{
+  overflow-x: hidden;
+}
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Fjalla One', sans-serif;*/
+
+h1{
+  font-family: 'Fjalla One', sans-serif;
+  color: #6f6f6f;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  color: #6f6f6f;
+}
+
+
+.titular{
+  color: #FF764D;
+font-family: 'Caveat Brush', sans-serif;}
+
+.frase{
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+/*fodon los textos*/
+.z-index{
+  z-index: -1;
+  position: relative;
+}
+.centrado{
+  position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 0;
+    width: 100%;
+}
+.letras{
+  letter-spacing: -0.8px;
+  font-size: 1rem;
+}
+/*imagenes*/
+.over:hover{
+  opacity: 0.4;
+  filter: blur(0.5px);
+  -webkit-filter: blur(0.5px);
+  -moz-filter: blur(0.5px);
+}
