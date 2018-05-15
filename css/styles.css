@@ -1,6 +1,14 @@
-body{
-  overflow-x: hidden;
+
+*{
+  margin: 0;
 }
+body {
+    background-color: #fff;
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    overflow-x: hidden;
+}
+
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Abel', sans-serif;
 font-family: 'Cairo', sans-serif;
@@ -8,17 +16,84 @@ font-family: 'Fjalla One', sans-serif;*/
 
 h1{
   font-family: 'Fjalla One', sans-serif;
-  color: #6f6f6f;
+  color: #2c2f32;
+}
+h2{
+  font-family: 'Fjalla One', sans-serif;
+  color: #2c2f32;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+h3{
+  font-family: 'Fjalla One', sans-serif;
+  color: #2c2f32;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+h4 {
+  color: #6f6f6f;;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  margin-top: 0;
 }
 p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #6f6f6f;
+}
+p.subtitulo{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+figcaption{
+    color: #6f6f6f;
+    line-height: 1.5rem;
+}
+ul{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+.figure{
+  margin-top: 50px;
+}
+.titular{
+  font-family: 'Quicksand','Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.titular-articulo{
+
+  color: #2c2f32;
+  font-family: 'Quicksand','Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.icono{
+  font-size: 70px;
+  margin: 3px;
+  margin-bottom: 0;
+  z-index: 3;
+  width: 100%;
+  color: #2c2f32;
 }
 
 
-.titular{
-  color: #FF764D;
-font-family: 'Caveat Brush', sans-serif;}
+
+.icono-footer{
+  font-size: 40px;
+  margin: 3px;
+  margin-bottom: 0;
+  z-index: 3;
+  width: 100%;
+  color: #ffffff;
+}
+
+.carrusel{
+  margin-bottom: 30%;
+}
 
 .frase{
   font-size: 2rem;
@@ -29,10 +104,17 @@ font-family: 'Caveat Brush', sans-serif;}
   z-index: -1;
   position: relative;
 }
+
 .centrado{
   position: absolute;
     text-align: center;
     top: 35%;
+    left: 0;
+    width: 100%;
+}
+.centrado1{
+    position: absolute;
+    text-align: center;
     left: 0;
     width: 100%;
 }
@@ -47,3 +129,95 @@ font-family: 'Caveat Brush', sans-serif;}
   -webkit-filter: blur(0.5px);
   -moz-filter: blur(0.5px);
 }
+.overbutton{
+  width: 100%;
+  border: 0px;
+  padding: 0px;
+  opacity: 1;
+}
+.overbutton:hover{
+  opacity: .6;
+  transition:  1s;
+}
+
+/*PAGINA ILUSTRACIÓN*/
+.nota{
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.pienota{
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 1rem;
+}
+.botoncierre{
+  width: 100px;
+  border: 0px;
+  padding: 0px;
+  opacity: 0.8;
+  font-size: 0.8rem;
+}
+.botoncierre:hover{
+  opacity: .6;
+  transition:  1s;
+}
+/*TERMINA PAGINA ILUSTRACIÓN*/
+
+.text-muted{
+  height: 40vh;
+}
+
+.designtext{
+  line-height: 1.5rem;
+  color: #797979;
+}
+.botones{
+  text-decoration: none;
+  color: #fff;
+  text-align: left;
+}
+/*PERFIL*/
+.experiencia .educacion{
+  background: #bbbbbb;
+}
+
+/*FOOTER*/
+
+.footer-basic-centered{
+  background-color: #292c2f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font: normal 18px sans-serif;
+  padding: 45px;
+  margin-top: 0px;
+}
+.icono-texto{
+  color: #fff;
+}
+.icono-footer{
+  font-size: 2rem;
+  color: #fff;
+  padding-bottom: 0.3rem;
+}
+.icono-texto .icono-footer:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*CIRCULOS ESTADISTICA*/
